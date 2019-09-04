@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+
+  shins:
+    build:
+      image: serverfarm/shins
+      dockerfile: Dockerfile

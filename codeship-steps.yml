@@ -1,0 +1,8 @@
+- type: serial
+  steps:
+
+    - name: Deliver Docker Image
+      service: shins
+      type: push
+      image_name: serverfarm/shins
+      encrypted_dockercfg_path: dockercfg.encrypted
